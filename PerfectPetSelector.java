@@ -1,27 +1,44 @@
+// Melin Ozturk
+// 10/13/2025
+// This program will create a system which when implemented will calculate with perfect accuracy the proper pet for anyone based on the user inputs. 
+
+
+
 import java.util.*;
 public class PerfectPetSelector{
 
     public static void main(String [] args){
         try (// get user input
         Scanner scanner = new Scanner(System.in)) {
-            String userName;
+            String name;
             
             // Enter username and press Enter
-            System.out.println("Enter username"); 
-            userName = scanner.nextLine();   
+            System.out.println("Enter name"); 
+            name = scanner.nextLine();   
                
-            System.out.println("Username is: " + userName);
+            System.out.println("Name is: " + name);
         }
-
-        String color = "blue";
-        String color1 = "red";
-        String color2 = "green";
-        String season = "fall";
-        String season1 = "summer";
-        String season2 = "spring";
-        String season3 = "winter";
-        String letter = "aeiou";
-
+        try (// get user input
+        Scanner scanner = new Scanner(System.in)) {
+            String color;
+            
+            // Enter username and press Enter
+            System.out.println("Enter favorite color"); 
+            color = scanner.nextLine();   
+               
+            System.out.println("Favorite color: " + color);
+        }
+        try (// get user input
+        Scanner scanner = new Scanner(System.in)) {
+            String season;
+            
+            // Enter username and press Enter
+            System.out.println("Enter favorite season"); 
+            season = scanner.nextLine();   
+               
+            System.out.println("Favorite season: " + season);
+        }
+        
         if (blue){
             if (Fall){
                 System.out.println("Alligator is your perfect pet!");
@@ -63,7 +80,7 @@ public class PerfectPetSelector{
         }
 
         else {
-            System.out.println("Rock is your perfect pet!")
+            System.out.println("Rock is your perfect pet!");
         }
          
 
