@@ -21,7 +21,7 @@ public class PerfectPetSelector{
         String season2 = "spring";
         String season3 = "winter";
         String letter = "aeiou";
-        
+
         if (blue){
             if (Fall){
                 System.out.println("Alligator is your perfect pet!");
