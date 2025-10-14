@@ -12,20 +12,60 @@ public class PerfectPetSelector{
                
             System.out.println("Username is: " + userName);
         }
-        
-    String color = "blue";
+
+        String color = "blue";
+        String color1 = "red";
+        String color2 = "green";
         String season = "fall";
-        if (color.equals("blue"));
-        if (season.equals("fall"));
-        //make sure it's valid
+        String season1 = "summer";
+        String season2 = "spring";
+        String season3 = "winter";
+        String letter = "aeiou";
         
-        System.out.println("Alligator is your perfect pet!");
+        if (blue){
+            if (Fall){
+                System.out.println("Alligator is your perfect pet!");
 
-        //make sure it's valid
-       
-       
+            }
+                else if (spring) 
+                {
+                    System.out.println("Ostrichis your perfect pet!");
+                }
+                else if (season != fall)
+                else if (season!= summer)
+                {
+                System.out.println("Ostrichis your perfect pet!");
+                }
 
-        //calculate the user's perfect PetSelector
-        //output the decision
+        if (green){
+            if (winter)
+            if (letter != aeiou)
+            {
+                System.out.println("Giraffe is your perfect pet!");
+
+            }
+                else if (season != fall) 
+                {
+                    System.out.println("Dog is your perfect pet!");
+                }
+        }
+            }
+        if (red){
+            System.out.println("Panda is your perfect pet!");
+            {
+                else if (letter != aeiou)
+            System.out.println("Porcupine is your perfect pet!");    
+            }
+                else if (summer) 
+                {
+                    System.out.println("Pony is your perfect pet!");
+                }
+        }
+
+        else {
+            System.out.println("Rock is your perfect pet!")
+        }
+         
+
     }
 }
