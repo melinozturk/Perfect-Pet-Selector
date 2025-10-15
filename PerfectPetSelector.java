@@ -2,8 +2,6 @@
 // 10/13/2025
 // This program will create a system which when implemented will calculate with perfect accuracy the proper pet for anyone based on the user inputs. 
 
-
-
 import java.util.*;
 public class PerfectPetSelector{
 
@@ -14,9 +12,9 @@ public class PerfectPetSelector{
             
             // Enter username and press Enter
             System.out.println("Enter name"); 
-            name = scanner.nextLine();   
+            name = scanner.nextLine().toLowerCase();   
                
-            System.out.println("Name is: " + name);
+            System.out.println("Name: " + name);
         }
         try (// get user input
         Scanner scanner = new Scanner(System.in)) {
@@ -24,7 +22,7 @@ public class PerfectPetSelector{
             
             // Enter username and press Enter
             System.out.println("Enter favorite color"); 
-            color = scanner.nextLine();   
+            color = scanner.nextLine().toLowerCase();   
                
             System.out.println("Favorite color: " + color);
         }
@@ -34,13 +32,15 @@ public class PerfectPetSelector{
             
             // Enter username and press Enter
             System.out.println("Enter favorite season"); 
-            season = scanner.nextLine();   
+            season = scanner.nextLine().toLowerCase();   
                
             System.out.println("Favorite season: " + season);
         }
         
+        
+
         if (blue){
-            if (Fall){
+            if (fall){
                 System.out.println("Alligator is your perfect pet!");
 
             }
