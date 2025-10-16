@@ -13,7 +13,7 @@ public class PerfectPetSelector{
             
             // Enter username and press Enter
             System.out.println("Enter name"); 
-            letter.nextLine().toLowerCase();   
+            letter = scanner.nextLine().toLowerCase();
                
             System.out.println("Name: " + letter);
         
