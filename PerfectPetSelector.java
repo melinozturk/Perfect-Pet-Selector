@@ -5,19 +5,18 @@
 import java.util.*;
 public class PerfectPetSelector{
 
-    public static void main(String [] args){
-        try (// get user input
-        Scanner scanner = new Scanner(System.in)) {
-            String name;
+    public static void main(String [] args)
+    {
+    
+        Scanner scanner = new Scanner(System.in) ;
+        String letter;
             
             // Enter username and press Enter
             System.out.println("Enter name"); 
-            name = scanner.nextLine().toLowerCase();   
+            letter.nextLine().toLowerCase();   
                
-            System.out.println("Name: " + name);
-        }
-        try (// get user input
-        Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Name: " + letter);
+        
             String color;
             
             // Enter username and press Enter
@@ -25,64 +24,68 @@ public class PerfectPetSelector{
             color = scanner.nextLine().toLowerCase();   
                
             System.out.println("Favorite color: " + color);
-        }
-        try (// get user input
-        Scanner scanner = new Scanner(System.in)) {
+  
+
+      
+       
             String season;
             
             // Enter username and press Enter
-            System.out.println("Enter favorite season"); 
+            System.out.println("Enter favorite season");
             season = scanner.nextLine().toLowerCase();   
                
             System.out.println("Favorite season: " + season);
-        }
-        
-        
-
-        if (blue){
-            if (fall){
+            
+            if (color.equals("blue")){
+            if (season.equals("fall")){
                 System.out.println("Alligator is your perfect pet!");
 
             }
-                else if (spring) 
+                else if (season.equals("spring"))
                 {
                     System.out.println("Ostrichis your perfect pet!");
                 }
-                else if (season != fall)
-                else if (season!= summer)
+                else if (!season.equals("fall"))
+
+                if (!season.equals("summer"))
                 {
                 System.out.println("Ostrichis your perfect pet!");
                 }
 
-        if (green){
-            if (winter)
-            if (letter != aeiou)
+        if (color.equals("green")){
+            if (season.equals("winter"))
+            if (!letter.equals("aeiou"))
             {
                 System.out.println("Giraffe is your perfect pet!");
 
             }
-                else if (season != fall) 
+                else if (!season.equals("fall"))
                 {
                     System.out.println("Dog is your perfect pet!");
                 }
         }
-            }
-        if (red){
+            
+        if (color.equals("red")){
             System.out.println("Panda is your perfect pet!");
-            {
-                else if (letter != aeiou)
+        }
+            
+                else if (!letter.equals("aeiou"))
             System.out.println("Porcupine is your perfect pet!");    
             }
-                else if (summer) 
+                else if (season.equals("summer"))
                 {
                     System.out.println("Pony is your perfect pet!");
                 }
-        }
+        
 
         else {
             System.out.println("Rock is your perfect pet!");
         }
-         
-
     }
 }
+    
+
+
+    
+
+
