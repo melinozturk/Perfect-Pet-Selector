@@ -39,45 +39,40 @@ public class PerfectPetSelector {
         if (color.equals("blue")) {
             if (season.equals("fall")) {
                 System.out.println("Alligator is your perfect pet!");
-            }
             } else if (season.equals("spring")) {
                 System.out.println("Ostrich is your perfect pet!");
             } else if (!season.equals("fall"))
 
                 if (!season.equals("summer")) {
-                     if (letter.equals("aeiou")) //name is vowel) 
-                
-                System.out.println("Pony is your perfect pet!");
-                }
-                else{
+                    if (letter.equals("aeiou")) // name is vowel)
+
+                        System.out.println("Pony is your perfect pet!");
+                } else {
                     System.out.println("Ostrich is your perfect pet!");
                 }
-                
 
-         else if (color.equals("green")) {
-            if (season.equals("winter")){
+        } else if (color.equals("green")) {
+            if (season.equals("winter")) {
                 if (!letter.equals("aeiou")) {
                     System.out.println("Giraffe is your perfect pet!");
 
-                }} else if (!season.equals("fall")) {
-                    System.out.println("Dog is your perfect pet!");
                 }
+            } else if (!season.equals("fall")) {
+                System.out.println("Dog is your perfect pet!");
+            }
         }
 
-        else if (color.equals("red")) 
-        {
-             if (!letter.equals("aeiou")) {
+        else if (color.equals("red")) {
+            if (!letter.equals("aeiou")) {
                 System.out.println("Panda is your perfect pet!");
-             }else{
+            } else {
                 System.out.println("Porcupine is your perfect pet!");
-             }
-             
-         
-        
-        }else {
+            }
+
+        } else {
             System.out.println("Rock is your perfect pet!");
         }
-    
+
     }
 
 }
